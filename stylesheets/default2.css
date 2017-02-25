@@ -4,6 +4,7 @@
   margin:0;
 }
 
+
 html, body {
   width: auto !important;
   overflow-x: hidden !important;
@@ -12,16 +13,6 @@ html, body {
 /*BODY*/
 
 /*elements on every page */
-
-.skill-header{
-  text-align: center;
-  color:black;
-  margin-top:70px;
-  margin-bottom:10px;
-  font-weight: 100;
-  font-size: 5em;
-  /*font-family: 'Patua One', cursive;*/
-}
 
 
 .div-box{
@@ -35,12 +26,20 @@ html, body {
 
 /*NAV BAR*/
 
+.navbar-default .navbar-nav > li > a{
+  color:gray;
+}
+
+.navbar-default .navbar-brand{
+  color:gray;
+}
+
 .navbar-default .navbar-nav > li > a:hover {
- color:#DBA24D;
+     color: #43b959;
 }
 
  .navbar-default:hover  a.navbar-brand:hover{
-  color:#DBA24D;
+      color: #43b959;
 }
 
 .navbar-brand{
@@ -51,9 +50,10 @@ html, body {
 .navbar-default{
   color:#DBA24D;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 100;
   font-family: font-family: 'Patua One', cursive;
   margin-right: 0px;
+  letter-spacing: 2px;
 }
 
 a.nav-buttons:hover{
@@ -96,7 +96,7 @@ a.nav-buttons:hover{
 
 
 #index{
-  background-image: url("../latin-image.jpg");
+  background-image: url("../mexico-top-places-mexico-city.jpg");
   background-attachment:fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -104,7 +104,7 @@ a.nav-buttons:hover{
   -o-background-size: cover;
   /*background-repeat: no-repeat;*/
   width: 100%;
-  min-height: 100%;
+  min-height: 100%
 }
 
 .center-list{ /*line up name, button, line on page*/
@@ -164,6 +164,8 @@ a.nav-buttons:hover{
 
 
 #about{
+  padding-top: 7vw;
+  padding-bottom: 10vw;
   background-color:white;
   background-attachment:fixed;
   background-size: cover;
@@ -175,29 +177,45 @@ a.nav-buttons:hover{
   height: 100%;
 }
 
-.about-container{
-  margin-bottom: 110px;
-}
 
 
-.head-shot{
-  margin-top: 30px;
-  max-width: 80%;
-  max-height: 100%;
-}
-
-.bio{
-  font-size: 2em;
-  color:#777;
-  margin-top: 65px;
-  letter-spacing: 2px;
-  font-weight: 100;
-}
 
 /*SKILL SECTION */
 
 #skills{
-  background-color:#f3f3f3;
+  background-image:url("../latin-image.png");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: auto;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
+}
+
+
+
+
+#break{
+ background-image:url("../houses.jpg");
+    background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+
+}
+
+#contact{
+background-color: white;
   background-attachment:fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -206,7 +224,11 @@ a.nav-buttons:hover{
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
 }
+
+
 
 .skills-container{
   margin-bottom: 20px;
@@ -214,12 +236,114 @@ a.nav-buttons:hover{
 
 .skill-header-skills{
   text-align: center;
-  color:black;
-  margin-top:70px;
+  color: #547d92;
   margin-bottom:10px;
   font-weight: 100;
-  font-size: 5em;
+  font-size: 3vw;
   font-family: font-family: 'Patua One', cursive;
+  letter-spacing: 2px;
+  line-height: 5vw;
+}
+
+
+.skill-header-skills-two{
+  text-align: center;
+  color: #547d92;
+  margin-top:1%;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 3vw;
+  font-family: font-family: 'Patua One', cursive;
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+
+
+.skill-header{
+  text-align: center;
+  color: white;
+  margin-top:20%;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 4vw;
+  letter-spacing: 3px;
+  line-height: 7vw;
+  margin-top: 20vw;
+  /*font-family: 'Patua One', cursive;*/
+}
+
+.skill-header-2{
+  text-align: center;
+  color: white;
+  margin-top:5%;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 3vw;
+  letter-spacing: 3px;
+  line-height: 7vw;
+  margin-top: 25vw;
+  /*font-family: 'Patua One', cursive;*/
+}
+
+.bio{
+    font-size: 2vw;
+    color: gray;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5vw;
+    line-height: 3.7vw;
+    text-align: center;
+}
+
+
+p.big-item-one{
+  color: #75a7c1;
+
+}
+
+p.big-item-two{
+  color: #68a771;
+}
+
+p.big-item-three{
+  color: #d88519;
+}
+
+
+
+.big-item-icon-one{
+color: #75a7c1;
+
+}
+
+.big-item-icon-two{
+color: #68a771;
+}
+
+.big-item-icon-three{
+color: #d88519;
+}
+
+.skill-header-skills-three{
+    text-align: center;
+    color: gray;
+    margin-top: 5%;
+    font-weight: 100;
+    font-size: 3vw;
+    font-family: font-family: 'Patua One', cursive;
+    letter-spacing: 2px;
+    line-height: 5vw;
+    margin-top: 0px;
+}
+
+.border{
+  border-bottom: 1px solid  #755128;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom:5%;
 }
 
 .div-box-skills{
@@ -229,192 +353,26 @@ a.nav-buttons:hover{
 }
 
 
+.big-item{
+  text-align:center;
+  font-size: 30px;
+  font-weight: 100;
 
+}
 
 /*languages */
 
-i.fa {
-  font-size: 40px;
+i.fa  {
+  font-size: 70px;
 }
 
 
-.language-text{
-  font-size:20px;
-
-}
-
-.languages{
-  color:#5CB8E6;
-  font-family: inherit;
-  display: inline-block;
-  padding:30px;
-  margin-bottom: 30px;
-}
-
-.language-divs{
-  margin-top: 20px;
-  text-align: center;
-}
 
 
-/*PROJECT SECTION*/
-.skill-header-projects{
-  text-align: center;
-  color:black;
-  margin-top:70px;
-  margin-bottom:10px;
-  font-weight: 100;
-  font-size: 5em;
-  font-family: font-family: 'Patua One', cursive;
-}
-
-.div-box-projects{
-  border-bottom: solid 1px #DBA24D;
-  margin-bottom:20px;
-  margin-top: 30px;
-}
-
-#project{
-  background-color: white;
-}
-
-.projects-container{
-  margin-bottom: 50px;
-}
-
-.project-section{
-  background-color: white;
-  margin-bottom: 30px;
-}
-
-.portfolio-image{
-  width:75%;
-}
-
-
-/*slides */
-
-.slide-image{
-  margin-bottom: 140px;
-}
-
-.carousel-caption{
- text-align: center;
- bottom: -170px;
-}
-
-.caption{
-  margin-bottom: 20px;
-}
-
-.carousel-control {
-  top:40%;
-  opacity: 10;
-}
-
-.center-block{
-  text-align: center;
-}
-
-.carousel-control.right {
-  background-image:none;
-  font-size: 50px;
-  color:#DBA24D;
-  text-shadow:none;
-}
-
-.carousel-control.left{
-  background-image:none;
-  font-size: 50px;
-  color:#DBA24D;
-  text-shadow:none;
-}
-
-.cat-site-caption{
-  font-family: inherit;
-  color: #6C6C50;
-  text-shadow:none;
-  font-weight: 300;
-}
-
-.cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  text-shadow:none;
-  font-weight: 300;
-  display:none;
-}
-
-.sub-cat-site-caption{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 20px;
-  text-shadow:none;
-  font-weight: 100;
-}
-
-
-.sub-cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 20px;
-  text-shadow:none;
-  font-weight: 100;
-  display:none;
-}
-
-.sub-cat-site-caption2{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 20px;
-  text-shadow:none;
-  font-weight: 300;
-}
-
-.click-to-view{
-  margin-top: 10px;
-  margin-bottom:30px;
-  background-color: transparent;
-  border:2px #DBA24D solid;
-  color: #DBA24D;
-  font-size:25px;
-  font-family: font-family: 'Patua One', cursive;
-  font-weight: 100;
-  position:relative;
-  text-align: center
-}
-
-.click-to-view:hover{
-  background-color:#DBA24D;
-  color:white;
-}
-
-.carousel-indicators .active{
-  background-color:#DBA24D;
-}
-
-.carousel-indicators li {
- border:1px solid #DBA24D;
-}
-
-.carousel-indicators {
-  margin-bottom: -10px;
-}
 
 
 
 /*CONTACT SECTION*/
-#contact{
-  background-image:url("../citystreet.png");
-  background-attachment:fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 100%;
-}
 
 .contact-container{
   margin-bottom: 170px;
@@ -424,11 +382,6 @@ i.fa {
   background-color: #6C6C50;
 }
 
-.div-box-contact{
- border-bottom: solid 1px white;
- margin-bottom:150px;
- margin-top: 20px;
-}
 
 .skill-header-contact{
   text-align: center;
@@ -445,430 +398,49 @@ i.fa {
 }
 
 .contact-info{
-  font-size:1.7em;
-  color:white;
+  font-size:1.7vw;
   letter-spacing: 2px;
   font-weight: 100;
-}
-
-.contact-info2{
-  font-size:1.7em;
-  color:white;
-  letter-spacing: 2px;
-  font-weight: 100;
-}
-
-a.contact-info2:hover, a.contact-info:hover{
-  text-decoration: none;
-  color:white;
-}
-
-.fa-envelope{
-  color:white;
-  margin-right:20px;
-}
-
-.fa-phone-square{
-  color:white;
-  margin-right:20px;
-}
-
-
-/*social media icons*/
-.github{
-  margin-left:-25px;
-}
-
-.icons{
-  list-style-type: none;
   text-align: center;
-  color:white;
-  font-size: 40px;
 }
 
-.socialmedia-icons{
-  display: inline-block;
-  text-decoration: none;
+.contact-command-one{
+      font-size: 2.5vw;
+      color:#d49147;
+      margin-top: 2vw;
+
 }
 
-.space{
-  margin-right: 23px;
+.contact-command-two{
+      font-size: 2.5vw;
+      color:#75a7c1;
+     margin-top: 2vw;
 }
 
-.fa-github:hover{
-  color:black;
-}
+.contact-command-three{
+      font-size: 2.5vw;
+      color:#43b959;
+      margin-top: 2vw;
 
-.fa-linkedin:hover {
-  color:#007bb6
-}
-
-.fa-twitter:hover{
-  color:#00aced;
-}
-
-.fa-facebook:hover{
-  color:#3b5998;
 }
 
 
-.fa-linkedin, .fa-twitter, .fa-facebook, .fa-github{
-  color:white;
+
+.contact-border-one{
+border-bottom: 1px solid gray;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%
+
 }
 
-.icons{
-  margin-bottom: 100px;
+.contact-info-one{
+  color:gray;
 }
+
 
 
 /*<!-- media queries -->*/
-
-
-
-/*tablet-size lrg */
-@media screen and (max-width:991px)  {
-
-  /*ABOUT*/
-  .head-shot{
-    max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 50px;
-  }
-
-  .bio{
-    font-size: 1.7em;
-    color:#777;
-    margin-top: 30px;
-    letter-spacing: 2px;
-    font-weight: 100;
-    margin-bottom: 50px;
-  }
-
-  .web{
-    font-size: 6.2em;
-  }
-}
-
-
-/*tablet-size med*/
-@media screen and (max-width:768px)  {
-
-  /*ALL SECTIONS */
-  .section-header{
-    font-size:3em;
-  }
-
-  .skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
-    margin-top:70px;
-    margin-bottom:10px;
-    font-weight: 100;
-    font-size: 3em;
-    font-family: font-family: 'Patua One', cursive;
-  }
-
-
-  /*INDEX SECTION*/
-  .navbar{
-    background-color: white;
-  }
-  .name{
-    font-size: 5em;
-    margin-top: 38%;
-  }
-  .web{
-    font-size: 4.8em;
-  }
-
-  /*SKILLS SECTION*/
-  i.fa {
-    font-size: 35px;
-  }
-
-  .language-text{
-    font-size:15px;
-  }
-
-  .skill-header-contact{
-    color:white;
-    margin-top:20px;
-    margin-bottom:10px;
-    font-weight: 100;
-    font-size: 3em;
-    font-family: font-family: 'Patua One', cursive;
-  }
-
-
-  /* ABOUT SECTION*/
-
-  .head-shot{
-   margin-top: 30px;
-   max-width: 60%;
-   max-height: 100%;
- }
-
- /*  CONTACT SECTION*/
- .contact-container{
-  margin-bottom: 30px;
-}
-
-.about-container{
-  margin-bottom: 20px;
-}
-
-.skills-container{
-  margin-bottom: 5px;
-}
-}
-
-
-
-
-/*tablet-size sm*/
-@media screen and (max-width:580px)  {
-
- .skill-header-skills, .skill-header-projects{
-  text-align: center;
-  color:black;
-  margin-top:70px;
-  margin-bottom:10px;
-  font-weight: 100;
-  font-size: 3em;
-  font-family: font-family: 'Patua One', cursive;
-}
-.skill-header-contact{
-  font-size:3em;
-  color:white;
-}
-
-/*  INDEX SECTION*/
-.name{
-  font-size: 3em;
-  margin-top: 55%;
-}
-.web{
-  font-size: 3em;
-}
-
-.get-in-touch{
-  background-color:white;
-}
-
-
-/*ABOUT SECTION*/
-.about-container{
-  margin-bottom: 20px;
-}
-
-.bio{
-  margin-bottom: 10px;
-}
-
-.head-shot{
- margin-top: 20px;
- max-width: 80%;
- max-height: 100%;
- margin-bottom: 10px;
-}
-
-
-
-/*SKILLS SECTION*/
-
-
-/*PROJECT SECTION*/
-.project-section{
-  margin-bottom: 60px;
-}
-
-.carousel-caption{
- text-align: center;
- bottom: -200px;
-}
-
-.click-to-view{
-  margin-bottom: 80px;
-}
-
-.carousel-indicators{
-  margin-bottom: -40px;
-}
-}
-
-
-
-/*mobile-size*/
-@media screen and (max-width:500px)  {
-
-
-  /*ALL SITES */
- .skill-header-skills, .skill-header, .skill-header-projects{
-    font-size:2.4em;
-    margin-top: 70px;
-  }
-  .skill-header-contact{
-    font-size:2.4em;
-    margin-top: -30px;
-  }
-
-
-  .skill-header-contact{
-    color:white;
-  }
-  /*skills*/
-  .div-box-skills{
-    border-bottom: solid 1px #DBA24D;
-    margin-bottom:10px;
-    margin-top: 20px;
-  }
-
-  /*contact*/
-  .div-box-contact{
-    border-bottom: solid 1px white;
-    margin-bottom:100px;
-    margin-top: 20px;
-  }
-
-  /*about*/
-  .div-box-projects{
-    border-bottom: solid 1px #DBA24D;
-    margin-bottom:60px;
-    margin-top: 20px;
-  }
-
-
-  /*INDEX*/
-  .index-container{
-    margin-bottom: 30px;
-  }
-
-  #index {
-    position: relative;
-    display: block;
-    height: auto;
-    width: auto;
-    background-color: #222222;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding: 100px 0;
-    margin-bottom: 0px;
-  }
-
-  .name{
-    font-size: 2.2em;
-    margin-top: 48%;
-    font-weight: 700;
-  }
-  .web{
-    font-size: 2.1em;
-    font-weight: 700;
-  }
-
-  .get-in-touch{
-    margin-top: -5px;
-  }
-
-
-
-
-
-/*PROJECTS SECTION*/
-
-.portfolio-image{
-  width:55%;
-}
-
-.carousel-caption{
- text-align: center;
- bottom: -330px;
- margin-right: 0px;
- font-size:
-}
-
-.cat-site-caption{
-  display:none;
-}
-
-.sub-cat-site-caption{
-  display:none;
-}
-
-.sub-cat-site-caption2{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 18px;
-  text-shadow:none;
-  font-weight: 300;
-}
-
-.sub-cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 18px;
-  text-shadow:none;
-  font-weight: 100;
-  display:inline;
-}
-
-.cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  text-shadow:none;
-  font-weight: 300;
-  display:inline;
-}
-
-.carousel-indicators{
-  margin-bottom: -40px;
-}
-
-.click-to-view{
-  background-color: #DBA24D;
-  color:white;
-  margin-bottom: 160px;
-  margin-top: 0px;
-  font-size: 23px;
-}
- /*CONTACT SECTION*/
-  #contact{
-    position: relative;
-    display: block;
-    height: auto;
-    width: auto;
-    background-color: #222222;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding: 100px 0;
-    margin-bottom: 0px;
-  }
-
-  .contact-info{
-    font-size:1.2em;
-    color:white;
-    letter-spacing: 2px;
-    font-weight: 300;
-  }
-  .contact-info2{
-  font-size:1.3em;
-  color:white;
-  letter-spacing: 2px;
-  font-weight: 300;
-}
-.contact-container{
-  margin-bottom: 70px;
-}
-.icons{
-  margin-top: -20px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-
-}
-
-}
 
 
