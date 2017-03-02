@@ -74,9 +74,9 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-right">
-              <li><a  class="nav-list" href="#about">About</a></li>
-              <li><a  class="nav-list" href="#skills">Work</a></li>
-              <li><a  class="nav-list" href="#contact">Contact</a></li>
+              <li><a  class="smoothScroll nav-list" href="#about">About</a></li>
+              <li><a  class="smoothScroll nav-list" href="#skills">Work</a></li>
+              <li><a  class="smoothScroll nav-list" href="#contact">Contact</a></li>
 
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -235,34 +235,9 @@
 
 <!-- jQuery -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script src="photos.js"></script>
-<script src="test.js"></script>
-<script src="jquery.easing.min.js"></script>
-<script src="scrollNav.js/jquery.scrollNav.min.js"></script>
-<script src="scrollNav.js/jquery.scrollNav.js"></script>
-<script>
-$( document ).ready(function() {
-window.scroll({
-  top: 2500, 
-  left: 0, 
-  behavior: 'smooth' 
-});
-
-// Scroll certain amounts from current position 
-window.scrollBy({ 
-  top: 100, // could be negative value
-  left: 0, 
-  behavior: 'smooth' 
-});
-
-// Scroll to a certain element
-document.querySelector('.hello').scrollIntoView({ 
-  behavior: 'smooth' 
-});
-
-});
-
-</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
 
 </body>
 </html>
