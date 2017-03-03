@@ -375,7 +375,7 @@ i.fa  {
 /*CONTACT SECTION*/
 
 .contact-container{
-  margin-bottom: 170px;
+  margin-bottom: 50px;
 }
 
 .contact-section{
@@ -439,6 +439,134 @@ border-bottom: 1px solid gray;
   color:gray;
 }
 
+@media screen and (max-width:991px)  {
+
+  .skill-header {
+    font-size: 7vw;
+    letter-spacing: 3px;
+    line-height: 9vw;
+    margin-top: 20vw;
+    /* font-family: 'Patua One', cursive; */
+}
+
+  .skill-header-skills {
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    line-height: 7vw;
+}
+
+  .skill-header-skills-two {
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    line-height: 7vw;
+}
+
+.bio {
+ font-size: 3vw;
+    color: gray;
+    font-weight: 100;
+    letter-spacing: 1px;
+     margin-right:0px;
+     margin-left: 0px;
+    margin-top: 5vw;
+    line-height: 5vw;
+    text-align: center;
+}
+
+#skills{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+  }
+
+
+@media screen and (max-width:767px)  {
+
+.contact-command-one, .contact-command-two, .contact-command-three{
+  font-size: 4vw;
+}
+
+  .contact-info{
+    font-size: 3vw;
+  }
+
+  .skill-header {
+    font-size: 7.9vw;
+    letter-spacing: 3px;
+    line-height: 11vw;
+    margin-top: 200px;
+    /* font-family: 'Patua One', cursive; */
+}
+
+.index-container {
+    margin-bottom: 170px;
+   }
+
+   .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+      background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+  }
+
+@media screen and (max-width:615px)  {
+
+  .skill-header {
+    font-size: 7.9vw;
+    letter-spacing: 3px;
+    line-height: 11vw;
+    margin-top: 190px;
+    /* font-family: 'Patua One', cursive; */
+}
+
+.index-container {
+    margin-bottom: 100px;
+   }
+
+  .skill-header-skills {
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 5vw;
+    letter-spacing: 2px;
+    line-height: 7vw;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+      background-color: rgba(255, 255, 255, 0.5);
+}
+
+  .skill-header-skills-two {
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 5vw;
+    letter-spacing: 2px;
+    line-height: 7vw;
+}
+
+.bio {
+ font-size: 3.8vw;
+    color: gray;
+    font-weight: 100;
+    letter-spacing: 1px;
+     margin-right:0px;
+     margin-left: 0px;
+    margin-top: 5vw;
+    line-height: 6.5vw;
+    text-align: center;
+}
+
+#skills{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+
+  }
 
 
 /*<!-- media queries -->*/
